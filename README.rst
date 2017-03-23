@@ -8,7 +8,6 @@ Installation
 
   source bin/activate
   pip install -r requirements.txt  
-  python bootstrap.py
   bin/buildout
 
 Activate a vhost
