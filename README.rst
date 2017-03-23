@@ -14,11 +14,12 @@ Activate a vhost
 
 Add your host to the backends config in buildout.cfg:
 
-[varnish-configuration]
-recipe = plone.recipe.varnish:configuration
-backends = starzel.de:localhost:8080
-           portknox.net:loclhost:8090
+.. code-block:: bash
 
+           [varnish-configuration]
+           recipe = plone.recipe.varnish:configuration
+           backends = starzel.de:localhost:8080
+                      portknox.net:loclhost:8090
 
 More info
 ---------
